@@ -23,7 +23,11 @@ public class indigi {
 		List<WebElement> cloumn = driver.findElements(By.xpath("//table[@class='table cb-srs-pnts']"));
 		int clu = cloumn.size();
 		System.out.println(clu);
+<<<<<<< HEAD
 		System.out.println("indigo");
+=======
+		System.out.println("suresh");
+>>>>>>> d357e58fe04aa07fd0a9cde0f4bd2a4b1edf3df1
 
 
 
