@@ -15,7 +15,7 @@ public class indigi {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.cricbuzz.com/cricket-series/4061/indian-premier-league-2022/points-table");
 		driver.manage().window().maximize();
-		
+
 		List<WebElement> row = driver.findElements(By.xpath("//table[@class='table cb-srs-pnts']"));
 		int size = row.size();
 		System.out.println(size);
@@ -23,7 +23,7 @@ public class indigi {
 		List<WebElement> cloumn = driver.findElements(By.xpath("//table[@class='table cb-srs-pnts']"));
 		int clu = cloumn.size();
 		System.out.println(clu);
-
+		System.out.println("indigo");
 
 
 
